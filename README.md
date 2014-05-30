@@ -70,8 +70,8 @@
 ## Sample Run
 #### producer
 * ran task generator 4 times, producing 40 messages
-* prefetch = 1, which means that messages sent to available workers
-  * note how worker 2, which processed longer tasks, processed fewer messages
+* prefetch = 1, which means that messages are only sent to available workers
+  * note how worker 2, which processed longer tasks, handled fewer messages
 ```
 $ ./gen-tasks-durable.sh
  [x] Published 0
