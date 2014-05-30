@@ -1,0 +1,11 @@
+#!/bin/bash
+./new_task_durable.rb '0'
+./new_task_durable.rb '1 .'
+./new_task_durable.rb '2 ..'
+./new_task_durable.rb '3 ...'
+./new_task_durable.rb '4 ....'
+./new_task_durable.rb '5 .....'
+./new_task_durable.rb '6 ......'
+./new_task_durable.rb '7 .......'
+./new_task_durable.rb '8 ........'
+./new_task_durable.rb '9 .........'
