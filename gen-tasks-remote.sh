@@ -1,0 +1,11 @@
+#!/bin/bash
+./new_task_remote.rb '0'
+./new_task_remote.rb '1 .'
+./new_task_remote.rb '2 ..'
+./new_task_remote.rb '3 ...'
+./new_task_remote.rb '4 ....'
+./new_task_remote.rb '5 .....'
+./new_task_remote.rb '6 ......'
+./new_task_remote.rb '7 .......'
+./new_task_remote.rb '8 ........'
+./new_task_remote.rb '9 .........'
