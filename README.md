@@ -59,6 +59,13 @@
   $ rabbitmqctl list_queues
  ```
 
+#### using "remote" producers and consumers
+* the remote host is extracted from the environment, so be sure to set MB_REMOTE_HOST
+``` 
+   $ export MB_REMOTE_HOST='rabbitmq.example.com'
+```
+
+
 ## Contributing
 
 1. Fork it
