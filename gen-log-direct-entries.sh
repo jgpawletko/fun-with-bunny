@@ -1,0 +1,11 @@
+#!/bin/bash
+./emit_log_direct.rb error   '0'
+./emit_log_direct.rb info    '1 .'
+./emit_log_direct.rb warning '2 ..'
+./emit_log_direct.rb error   '3 ...'
+./emit_log_direct.rb info    '4 ....'
+./emit_log_direct.rb warning '5 .....'
+./emit_log_direct.rb error   '6 ......'
+./emit_log_direct.rb info    '7 .......'
+./emit_log_direct.rb warning '8 ........'
+./emit_log_direct.rb error   '9 .........'
