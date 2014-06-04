@@ -1,0 +1,12 @@
+#!/bin/bash
+./emit_log_topic.rb  'xip.validate.job.pass'         'xip.validate.job.pass'
+./emit_log_topic.rb  'xip.validate.job.error'        'xip.validate.job.error'        
+./emit_log_topic.rb  'xip.register.job.pass'	     'xip.register.job.pass'	    
+./emit_log_topic.rb  'xip.register.job.error'	     'xip.register.job.error'	    
+./emit_log_topic.rb  'file.register.job.pass'	     'file.register.job.pass'	    
+./emit_log_topic.rb  'file.register.job.error'	     'file.register.job.error'	    
+./emit_log_topic.rb  'file.identify.job.pass'	     'file.identify.job.pass'	    
+./emit_log_topic.rb  'file.identify.job.error'	     'file.identify.job.error'	    
+./emit_log_topic.rb  'file.transcode.service.status' 'file.transcode.service.status'
+./emit_log_topic.rb  'file.transcode.job.status'     'file.transcode.job.status'
+./emit_log_topic.rb  'file.transcode.job.enqueue'    'file.transcode.job.enqueue'
