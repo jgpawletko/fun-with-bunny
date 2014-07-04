@@ -49,7 +49,7 @@
 #### generate some messages
 *   open a new terminal window and cd to fun-with-bunny directory
 ```
-   $ ./worker_prefetch.rb
+   $ ./gen-tasks.sh 
 ```
 * rinse and repeat as desired
 
