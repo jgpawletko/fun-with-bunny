@@ -3,7 +3,6 @@
 
 require "bunny"
 
-#conn = Bunny.new(host: 'devmb1.dlib.nyu.edu')
 conn = Bunny.new(host: ENV['MB_REMOTE_HOST'])
 conn.start
 
