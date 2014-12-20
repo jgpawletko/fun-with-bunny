@@ -53,8 +53,8 @@
 ```
 * rinse and repeat as desired
 
-#### look at the RabbitMQ queues
-* open a new terminal window
+#### look at the RabbitMQ queues  
+* open a new terminal window  
   ```
   $ rabbitmqctl list_queues
  ```
