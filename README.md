@@ -11,7 +11,6 @@
 
 ## Notes
 * N.B. to use this code, you need to have a RabbitMQ Message Broker running.
-* There is a .ruby-gemset file in this project. (I use [rvm](https://rvm.io/).)
 
 
 ## Setting Up
